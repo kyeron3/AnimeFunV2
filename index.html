@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+
+    <body>
+            <div class="header row">
+                <h1 class="display-1">DECA-DENCE</h1>
+                <p class="h5 shadow">A Gadoll nevű ismeretlen létformák megjelenésével az emberiség a kihalás szélére sodródott, míg a túlélők egy 3000 méter magas mobil erődben, a Deca-Dence-ben találtak menedéket. Az itt élők két csoportba sorolhatók: a Gearek napi szinten küzdenek a Gadollokkal, a Tankerek viszont nem alkalmasak a harcra. Natsume, az álmodozó Tanker lány és Kaburagi, a kiégett Gear találkozása az, ami a világuk jövőjét meghatározza majd.</p>
+            </div>
+            <section class=" container mt-5 ">
+	<div class="row d-flex justify-content-center">
+		<!-- Card 1 -->
+		<div class="col-md-4 col-sm-6">
+			<div class="card-container">
+				<div class="card" id="card1">
+					<!-- Front -->
+					<div class="front">
+						<iframe class="embed-responsive-item" src="https://embed.indavideo.hu/player/video/a5e4cb71e6" allowfullscreen></iframe>
+						<div class="card-body">
+							<h3 class="card-title">Első rész</h3>
+						</div>
+                        <button type="button" onclick="myScript1()" class="btn btn-primary custom-pos">Flip</button>
+					</div>
+					<!-- Back -->
+					<div class="back">
+						<div class="card-body">
+							<h5 class="card-title">Technologies Used</h5>
+							<ul class="card-text">
+								<li>Bootstrap</li>
+								<li>Javascript</li>
+								<li>Node.js</li>
+							</ul>
+							<a href="#" class="btn btn-primary">Site</a>
+							<a href="#" class="btn btn-primary">GitHub</a>
+                            <button type="button" onclick="myScript1()" class="btn btn-primary custom-pos">Flip</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+		<!-- Card 2 -->
+		<div class="col-md-4 col-sm-6">
+			<div class="card-container">
+				<div class="card" id="card2">
+					<!-- Front -->
+					<div class="front">
+						<iframe class="embed-responsive-item" src="https://embed.indavideo.hu/player/video/655b2113e7" allowfullscreen></iframe>
+						<div class="card-body">
+							<h3 class="card-title">Második rész</h3>
+						</div>
+                        <button type="button" onclick="myScript2()" class="btn btn-primary custom-pos">Flip</button>
+					</div>
+					<!-- Back -->
+					<div class="back">
+						<div class="card-body">
+							<h5 class="card-title">Technologies Used</h5>
+							<ul class="card-text">
+								<li>Bootstrap</li>
+								<li>Javascript</li>
+								<li>Node.js</li>
+							</ul>
+							<a href="#" class="btn btn-primary">Site</a>
+							<a href="#" class="btn btn-primary">GitHub</a>
+                            <button type="button" onclick="myScript2()" class="btn btn-primary custom-pos">Flip</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+		<!-- Card 3 -->
+		<div class="col-md-4 col-sm-6">
+			<div class="card-container">
+				<div class="card" id="card3">
+					<!-- Front -->
+					<div class="front">
+                    <iframe class="embed-responsive-item" src="https://embed.indavideo.hu/player/video/504fc0d383" allowfullscreen></iframe>
+						<div class="card-body">
+							<h3 class="card-title">Harmadik rész</h3>
+						</div>
+                        <button type="button" onclick="myScript3()" class="btn btn-primary custom-pos">Flip</button>
+					</div>
+					<!-- Back -->
+					<div class="back">
+						<div class="card-body">
+							<h5 class="card-title">Technologies Used</h5>
+							<ul class="card-text">
+								<li>Bootstrap</li>
+								<li>Javascript</li>
+								<li>Node.js</li>
+							</ul>
+							<a href="#" class="btn btn-primary">Site</a>
+							<a href="#" class="btn btn-primary">GitHub</a>
+                            <button type="button" onclick="myScript3()" class="btn btn-primary custom-pos">Flip</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+            <div class="row">
+                <button type="button" class="btn btn-primary  btn-lg back-button">Back</button>
+            </div>
+        
+        <script>
+        function myScript1(){
+            var element = document.getElementById("card1");
+            element.classList.toggle("flipped");
+        }
+        </script>
+        <script>
+        function myScript2(){
+            var element = document.getElementById("card2");
+            element.classList.toggle("flipped");
+        }
+        </script>
+        <script>
+        function myScript3(){
+            var element = document.getElementById("card3");
+            element.classList.toggle("flipped");
+        }
+        </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
